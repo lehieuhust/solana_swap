@@ -7,7 +7,7 @@ pub mod utils;
 use crate::instructions::*;
 use anchor_lang::prelude::*;
 
-declare_id!("DMdtaoH7kM6U73HoCar2J97kVu63ncHCfgYKLNAfrgXa");
+declare_id!("Hj3vPRraqqFSAcbmRWx3emQE2o7wchznAWFsn6J3tSt5");
 
 #[program]
 pub mod swap {

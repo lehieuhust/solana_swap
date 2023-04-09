@@ -45,7 +45,7 @@ describe("swap", async () => {
     assert.equal(userBalance, 10 * anchor.web3.LAMPORTS_PER_SOL);
     assert.equal(masterAuthorityBalance, 10 * anchor.web3.LAMPORTS_PER_SOL);
 
-    // init and mint token
+    // init and mint token - MOVE token
     mintAddress = await createToken(connection, authority, decimals);
     associatedAccount = await mintTo(
       connection,
